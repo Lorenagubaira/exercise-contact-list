@@ -1,5 +1,8 @@
 {
-	"title" : "Contact List App Using React & Flux",
+	"title" : {
+		"us": "Contact List App Using React & Flux",
+		"es": "Aplicación de lista de contactos con React y Flux"
+	},
 	"slug" : "contact-list",
 	"status": "published",
 	"translations": ["es", "us"],
@@ -10,7 +13,10 @@
 	"preview": "https://github.com/breatheco-de/exercise-contact-list/blob/master/preview.gif?raw=true",
 	"duration" : 24,
 	"template_url": "self",
-	"description" : "Create a simple contact list application using the React.js framework and Flux Architecture",
+	"description" : {
+		"us":"Build a professional Contact Management App using React, React Router, and Flux! This project lets users create, edit, delete, and view contacts. Practice state management with Flux architecture and sharpen your front-end skills with real-world features and multiple views.",
+		"es":"¡Crea una aplicación profesional de gestión de contactos usando React, React Router y Flux! Este proyecto permite crear, editar, eliminar y ver contactos. Practica el manejo de estados con la arquitectura Flux y mejora tus habilidades de front-end con funciones reales y múltiples vistas."
+    },
 	"talents": [
 		{ "badge": "tag-master", "points": 10 },
 		{ "badge": "select-everything", "points": 5 },
@@ -50,5 +56,8 @@
 		{ "seconds": "4576", "description": "Final summary" }
 	],
     "autoPlay": false,
-    "projectType": "project"
+    "projectType": "project",
+	"telemetry": {
+	    	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=199"
+	  }
 }
